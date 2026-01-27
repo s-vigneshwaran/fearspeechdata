@@ -1,0 +1,72 @@
+{
+    "title": {
+        "description": "Title of the paper."
+    },
+    "author": {
+        "description": "Author(s) of the paper."
+    },
+    "year": {
+        "description": "The year in which the paper introducing the dataset was published. This is not equal to the year of the dataset collection."
+    },
+    "venue": {
+        "description": "Venue of the published paper."
+    },
+    "research_community": {
+        "description": "Research discipline of the paper: Computational Linguistics (CL), Computer Science (CS), Machine Learning (ML), Artificial Intelligence (AI), Information Retrieval (IR), Web Mining (WM), Social & Information Networks (SI), Data Processing (DP), Data Accessibility (DA), Social Science (SocSci) and Political Science (PolSci).",
+        "values": ["CL", "CS", "ML", "AI", "IR", "WM", "SI", "DP", "DA", "SocSci", "PolSci"]
+    },
+    "url": {
+        "description": "The link to the paper."
+    },
+    "data_source": {
+        "description": "The source of the data: Political Debates, Tweets, reddit posts, etc."
+    },
+    "topic": {
+        "description": "The topic of the dataset collection like climate change, immigration, war, etc."
+    },
+    "language": {
+        "description": "Language code of the dataset."
+    },
+    "modality": {
+        "description": "The modality of the dataset.",
+        "values": ["text", "image", "multi-modal", "audio-visual"]
+    },
+    "corpus_size": {
+        "description": "The number of items that has been annotated. We only consider those items that have been annotated for a dimension of fear or fear speech."
+    },
+    "annotation_unit": {
+        "description": "The type of unit that was selected for annotation, e.g., sentences, comments, dialogues."
+    },
+    "availabilty_of_dataset": {
+        "description": "Whether the dataset is (publicly) available.",
+        "values": ["Yes", "No", "No Indication"]
+    },
+    "link_to_dataset": {
+        "description": "The link to the repository of the dataset if online available."
+    },
+    "status_of_link": {
+        "description": "Whether the link is still accessible or not.",
+        "values": ["Accessible", "Not Accessible", "-"]
+    },
+    "availability_of_annotation_guidelines": {
+        "description": "Whether the exact annotation guidelines that were given to the annotators are available.",
+        "values": ["Accessible", "Not Accessible", "-"]
+    },
+    "label": {
+        "description": "The dimensions of fear that have been annotated in the dataset (using the wording of the dataset). This does not necessarily cover all dimension of annotation that the dataset provides, only those that we identified as belonging to a fear dimension."
+    },
+    "fear_dimension_code": {
+        "description": "Code of the respective dimension of fear as listed in the taxonomy. (FS:FS - Fear speech, PR:AP - Appeal to fear in Propaganda, PR:FM - Fear mongering in Propaganda, FR:SE - Security framing, FR:TH - Threat framing, PO:CR - Crisis rhetoric in populism, FA:AE - Appeal to emotion in Fallacy, AS:TH - Threat in Abusive speech)",
+        "values": ["FS:FS", "PR:AP", "PR:FM", "FR:SE", "FR:TH", "PO:CR", "FA:AE", "AS:TH"]
+    },
+    "annotation_type": {
+        "description": "Whether the annotation was conducted via in-house, crowd-sourcing or automatically",
+        "values": ["in-house", "crowd_sourced", "automatic", "external" ]
+    },
+    "IAA": {
+        "description": "The measure of inter-annotator-agreement, e.g., Fleiss' Kappa, Percentage Agreement, Krippendorff's Alpha."
+    },
+    "bibtex": {
+        "description": "The BibTex entry of the paper"
+    }
+}
